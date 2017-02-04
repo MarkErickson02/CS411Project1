@@ -1,0 +1,61 @@
+﻿/* CS 411 P1
+*
+*/   
+pubic interface HelperCS411{
+
+
+}
+int methodTest(int switchCases){
+   string input = readln();
+   switch(switchCases){
+      case (switchCases ==1)
+        break; 
+   }   
+}
+void main(){
+   string abcdefghijklnmopqrstuvwxyz = “19”;
+   int IF;
+   int ifintvoid;
+   boolean tBoolean = true; //Single line comment
+   boolean fBoolean = false
+   fBoolean = ! true;
+   int intVariable = 7;
+   int hexLow = 0xab;
+   int hexHigh = 0XFD;
+   double reg = 4.4;
+   double scientificLow = 4.2e3;
+   double scientificHigh = 4.2E3;
+   double scientificHighPos = 4.3E+3;
+   double scientficHighNeg = 4.3E-4;
+   println(“This is a println test”);
+   int[] a;
+   a = newarray(20,int);
+   int i = 0;
+   for  ( ; i<10;i++){
+      println(i);
+   }
+   
+class CS411 extends TestCase implements Tester{
+   int counter = 0;
+   int ex1 = 44;
+   int ex2 = 44;
+   while (counter < 1000){
+      if (counter == 7){
+         println(“equality”);
+      }
+      if (counter >= 8){
+         println(ex1 % ex2);
+      }
+      if (counter <= 6){
+         println(ex1 * ex2);
+      }
+      if (counter >50){
+         println(ex1/ex2);
+      }
+      if (counter != 23 && counter < 65 || counter == 17){
+         println(ex1 - ex2);
+      }
+      else{
+         println(“else statement”);
+      }
+}
