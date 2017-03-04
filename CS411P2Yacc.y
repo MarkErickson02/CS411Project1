@@ -3,15 +3,15 @@ include <stdio.h>
 %}
 
 %start Program
-%token _assignop
-%token _or
-%token _and
-%token _equal _notequal
-%token _less _lessequal _greater _greaterequal
-%token _plus _minus
-%token _multiplication _division _mod
+%left _assignop
+%left _or
+%left _and
+%left _equal _notequal
+%left _less _lessequal _greater _greaterequal
+%left _plus _minus
+%left _multiplication _division _mod
 %right _not _minus
-%token _leftbracket _rightbracket _period
+%left _leftbracket _rightbracket _period
 %token _void _id _leftparen _rightparen _doubleconstant _stringconstant _leftbrace _rightbrace _semicolon _boolean _double _int _string _class _implements
 %token _if _else _break _class _extends _false _for _newarray _println _readln _return _while _comma _period _leftparen _rightparen _intconstant _doubleconstant _stringconstant _booleanconstant 
 %%
